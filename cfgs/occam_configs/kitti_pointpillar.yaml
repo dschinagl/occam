@@ -1,0 +1,15 @@
+OCCAM:
+    NAME: OccAM
+    FOV_CROP: True # approximate KITTI image based FOV sampling
+    FOV_ANGLE: 42
+
+    SAMPLING:
+        NAME: Sampling # point cloud perturbation
+        RANDOM_ROT: 5 # random rotation before voxelization
+        VOXEL_SIZE: [0.2, 0.2, 0.2]
+        MAX_PTS_PER_VOXEL: 200 # voxel generator settings
+        MAX_VOXELS: 20000
+        # density distribution used for sub-sampling (see paper)
+        # 1 / (a*distance^2 + b*distance + c)
+        DENSITY_DISTR_COEFF: [0.0055795, 0.23362617, 2.52680692]
+        LAMBDA: 0.01226
