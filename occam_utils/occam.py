@@ -11,6 +11,7 @@ from torch.utils.data import DataLoader
 
 from pcdet.models import build_network, load_data_to_gpu
 from pcdet.ops.iou3d_nms.iou3d_nms_utils import boxes_iou3d_gpu
+from scipy.spatial.transform import Rotation
 
 from occam_utils.occam_datasets import BaseDataset, OccamInferenceDataset
 
@@ -282,7 +283,7 @@ class OccAM(object):
             class labels of detected objects in full pcl
         batch_size : int
             batch_size during AM computation
-        num_workes : int
+        num_workers : int
             number of dataloader workers
 
         Returns
@@ -340,7 +341,7 @@ class OccAM(object):
 
         progress_bar.close()
 
-        #normalize using occurrences
+        # normalize using occurrences
         attr_maps[:, sampling_map > 0] /= sampling_map[sampling_map > 0]
 
         return attr_maps
@@ -362,11 +363,17 @@ class OccAM(object):
                 size=1.0, origin=[0, 0, 0])
             vis.add_geometry(axis_pcd)
 
+        rot_mat = Rotation.from_rotvec([0, 0, box[6]]).as_matrix()
+        bb = open3d.geometry.OrientedBoundingBox(box[:3], rot_mat, box[3:6])
+        bb.color = (1.0, 0.0, 1.0)
+        vis.add_geometry(bb)
+
         pts = open3d.geometry.PointCloud()
         pts.points = open3d.utility.Vector3dVector(points[:, :3])
-
-        vis.add_geometry(pts)
         pts.colors = open3d.utility.Vector3dVector(color)
+        vis.add_geometry(pts)
 
         vis.run()
         vis.destroy_window()
+        
+        
