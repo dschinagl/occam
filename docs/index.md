@@ -41,15 +41,43 @@ While 3D object detection in LiDAR point clouds is well-established in academia 
 ---
 
 ## Paper
-<center>
+
+[[Paper & Supp. (arXiv)]]()
 <img width="100%" src="images/paper_thumbnail.png" />
-</center>
 <br>
 
 ---
+
+## Method Overview
+
+OccAM overview. We consider the specific point cloud  characteristics during the sub-sampling of the input point cloud, such that the black-box 3D object detectors are challenged appropriately for all sensing ranges. Using a similarity metric tailored for this task, we can precisely analyze the changes in the detection output to obtain highly expressive attribution maps.
+
+<img width="100%" src="images/method_overview.png" />
+<br>
+
+---
+
+## Example Results
+
+Attribution map examples for PointPillars detections on KITTI. Warmer colors (turbo colormap) denote higher contribution of a point to this detection. Crops are for visualization only.
+
+<img width="75%" src="images/example_results.png" />
+<br>
+
+---
+
+## Average Attribution Maps
+
+Average attribution maps (turbo-colored) for PointPillars trained and evaluated on KITTI [8]. We also show the average LiDAR reflectivity / intensity values (copper-colored). From left to right: cars, pedestrians and cyclists.
+
+<img width="100%" src="images/average_attribution.png" />
+<br>
+
+---
+
 ## Citation
 
-If you find this code useful for your research, please cite
+If you can make use of this work, please cite:
 
 ```
 @inproceedings{Schinagl2022OccAM,
