@@ -9,7 +9,7 @@ This is the demo code for the paper:
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
 [CVPR 2022](https://cvpr2022.thecvf.com/)<br>
-<p align="left"><img width="60%" src="docs/teaser.jpg" /></p><br>
+<img width="60%" src="docs/teaser.jpg" /><br>
 
 > While 3D object detection in LiDAR point clouds is well-established in academia
 > and industry, the explainability of these models is a largely unexplored 
