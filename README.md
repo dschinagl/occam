@@ -8,8 +8,9 @@ This is the demo code for the paper:
 [Horst Possegger](https://snototter.github.io/research/), [Peter M. Roth](https://scholar.google.at/citations?user=CgboCBAAAAAJ&hl=de),
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
-[CVPR 2022](https://cvpr2022.thecvf.com/)<br>
-<img width="60%" src="docs/teaser.jpg" /><br>
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022<br>
+[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]]()<br>
+<img width="60%" src="docs/images/teaser.jpg" /><br>
 
 > While 3D object detection in LiDAR point clouds is well-established in academia
 > and industry, the explainability of these models is a largely unexplored 
