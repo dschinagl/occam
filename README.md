@@ -1,7 +1,5 @@
 # OccAM's Laser
 
-<p align="left"><img width="60%" src="docs/teaser.jpg" /></p>
-
 This is the demo code for the paper:
 
 **OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data**
@@ -11,6 +9,8 @@ This is the demo code for the paper:
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
 [CVPR 2022](https://cvpr2022.thecvf.com/)
+
+<p align="left"><img width="60%" src="docs/teaser.jpg" /></p>
 
 > While 3D object detection in LiDAR point clouds is well-established in academia
 > and industry, the explainability of these models is a largely unexplored 
