@@ -14,7 +14,7 @@ def parse_config():
     parser.add_argument('--occam_cfg_file', type=str,
                         default='cfgs/occam_configs/kitti_pointpillar.yaml',
                         help='specify the OccAM config')
-    parser.add_argument('--source_file_path', type=str, default='demo_pcl.bin',
+    parser.add_argument('--source_file_path', type=str, default='demo_pcl.npy',
                         help='point cloud data file to analyze')
     parser.add_argument('--ckpt', type=str, default=None, required=True,
                         help='path to pretrained model parameters')
