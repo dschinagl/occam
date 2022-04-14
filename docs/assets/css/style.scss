@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+body { background: #ffffff url(./images/ignore.png) 0 0 no-repeat; }
+#container { background: #ffffff url(./images/ignore.png) 0 0 no-repeat; }
+a { color: #267CB9; }
+a:hover { color: #267CB9; }
+header h1 { font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-size: 32px; font-weight: bold; color: #000000; text-align: center; }
+header { padding-top: 35px; padding-bottom: 0px; }
+pre { padding: 20px; overflow: auto; color: #f2f2f2; text-shadow: none; border: 1px solid #d8d8d8; background-color: #f7f7f7; }
+pre code { padding: 0; color: #000000; background-color: #f7f7f7; border: none; }
