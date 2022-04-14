@@ -6,7 +6,7 @@ This is the demo code for the paper:
 
 **OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data**
 <br>
-[David Schinagl](https://github.com/dschinagl), [Georg Krispel](https://scholar.google.at/citations?user=Vt2vlgIAAAAJ&hl=de), 
+[David Schinagl](https://dschinagl.github.io), [Georg Krispel](https://scholar.google.at/citations?user=Vt2vlgIAAAAJ&hl=de), 
 [Horst Possegger](https://snototter.github.io/research/), [Peter M. Roth](https://scholar.google.at/citations?user=CgboCBAAAAAJ&hl=de),
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
