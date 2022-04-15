@@ -57,7 +57,7 @@ OccAM overview. We consider the specific point cloud  characteristics during the
 
 <a href="images/method_overview.png">
 <img width="100%" src="images/method_overview.png" />
-<\a>
+</a>
 <br>
 
 ---
@@ -68,7 +68,7 @@ Attribution map examples for PointPillars detections on KITTI. Warmer colors (tu
 
 <a href="images/example_results.png">
 <img width="100%" src="images/example_results.png" />
-<\a>
+</a>
 <br>
 
 ---
@@ -86,7 +86,7 @@ Average attribution maps (turbo-colored) for PointPillars trained and evaluated 
 
 <a href="images/average_attribution.png">
 <img width="100%" src="images/average_attribution.png" />
-<\a>
+</a>
 <br>
 
 ---
