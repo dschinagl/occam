@@ -21,7 +21,6 @@
 <center><a href="https://arxiv.org/pdf/2204.06577.pdf">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/dschinagl/occam">[Code]</a></center>
 </p>
-<br>
 
 ---
 
@@ -45,7 +44,9 @@ While 3D object detection in LiDAR point clouds is well-established in academia 
 ## Paper
 
 [[Paper & Supp. (arXiv)]](https://arxiv.org/pdf/2204.06577.pdf)
+<a href="https://arxiv.org/pdf/2204.06577.pdf">
 <img width="100%" src="images/paper_thumbnail.png" />
+</a>
 <br>
 
 ---
@@ -54,7 +55,9 @@ While 3D object detection in LiDAR point clouds is well-established in academia 
 
 OccAM overview. We consider the specific point cloud  characteristics during the sub-sampling of the input point cloud, such that the black-box 3D object detectors are challenged appropriately for all sensing ranges. Using a similarity metric tailored for this task, we can precisely analyze the changes in the detection output to obtain highly expressive attribution maps.
 
+<a href="images/method_overview.png">
 <img width="100%" src="images/method_overview.png" />
+<\a>
 <br>
 
 ---
@@ -63,7 +66,10 @@ OccAM overview. We consider the specific point cloud  characteristics during the
 
 Attribution map examples for PointPillars detections on KITTI. Warmer colors (turbo colormap) denote higher contribution of a point to this detection. Crops are for visualization only.
 
-<img width="100%" src="images/example_results.png" /><br>
+<a href="images/example_results.png">
+<img width="100%" src="images/example_results.png" />
+<\a>
+<br>
 
 ---
 
@@ -78,7 +84,9 @@ Attribution map examples for PointPillars detections on KITTI. Warmer colors (tu
 
 Average attribution maps (turbo-colored) for PointPillars trained and evaluated on KITTI [8]. We also show the average LiDAR reflectivity / intensity values (copper-colored). From left to right: cars, pedestrians and cyclists.
 
+<a href="images/average_attribution.png">
 <img width="100%" src="images/average_attribution.png" />
+<\a>
 <br>
 
 ---
