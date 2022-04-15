@@ -25,7 +25,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022<br>
 > Our sub-sampling strategy takes into account the special characteristics of 
 > LiDAR data, such as the depth-dependent point density.
 
-<img width="50%" src="docs/images/example_progression.gif" /><br>
+<img style="border:2px solid #000000;" src="docs/images/example_progression.gif" width=540 /><br>
 
 This repository is based on [`[OpenPCDet]`](https://github.com/open-mmlab/OpenPCDet) (version `v0.5.2`)
 
