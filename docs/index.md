@@ -18,7 +18,7 @@
 </p>
 
 <p>
-<center><a href="">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<center><a href="https://arxiv.org/pdf/2204.06577.pdf">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/dschinagl/occam">[Code]</a></center>
 </p>
 <br>
@@ -42,7 +42,7 @@ While 3D object detection in LiDAR point clouds is well-established in academia 
 
 ## Paper
 
-[[Paper & Supp. (arXiv)]]()
+[[Paper & Supp. (arXiv)]](https://arxiv.org/pdf/2204.06577.pdf)
 <img width="100%" src="images/paper_thumbnail.png" />
 <br>
 
