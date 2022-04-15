@@ -61,8 +61,11 @@ OccAM overview. We consider the specific point cloud  characteristics during the
 
 Attribution map examples for PointPillars detections on KITTI. Warmer colors (turbo colormap) denote higher contribution of a point to this detection. Crops are for visualization only.
 
-<img width="100%" src="images/example_results.png" />
-<br>
+<img width="100%" src="images/example_results.png" /><br>
+
+## Attribution Map Progression Example
+
+<img width=540 src="images/example_progression.gif" /><br>
 
 ---
 
