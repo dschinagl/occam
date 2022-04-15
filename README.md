@@ -9,7 +9,7 @@ This is the demo code for the paper:
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022<br>
-**[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]]()**<br>
+**[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2204.06577.pdf)**<br>
 <img width="60%" src="docs/images/teaser.jpg" /><br>
 
 > While 3D object detection in LiDAR point clouds is well-established in academia
