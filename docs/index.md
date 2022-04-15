@@ -26,7 +26,9 @@
 ---
 
 <center>
+<a href="images/teaser.jpg">
 <img width="100%" src="images/teaser.jpg" />
+</a>
 </center>
 <br>
 Our attribution maps or saliency maps show the importance of individual LiDAR 3D points for the black-box detection model’s decisions.
@@ -63,9 +65,12 @@ Attribution map examples for PointPillars detections on KITTI. Warmer colors (tu
 
 <img width="100%" src="images/example_results.png" /><br>
 
-## Attribution Map Progression Example
+---
 
+## Attribution Map Progression Example
+<center>
 <img width=540 src="images/example_progression.gif" /><br>
+</center>
 
 ---
 
