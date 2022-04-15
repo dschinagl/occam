@@ -10,7 +10,9 @@ and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de
 <br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022<br>
 **[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2204.06577.pdf)**<br>
-<a href="https://dschinagl.github.io/occam/"><img width="80%" src="docs/images/teaser.jpg"/><\a>
+<a href="https://dschinagl.github.io/occam/">
+<img width="80%" src="docs/images/teaser.jpg"/>
+</a>
 
 <br>
 
