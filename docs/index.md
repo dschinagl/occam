@@ -64,7 +64,7 @@ OccAM overview. We consider the specific point cloud  characteristics during the
 
 ## Example Results
 
-Attribution map examples for PointPillars detections on KITTI. Warmer colors (turbo colormap) denote higher contribution of a point to this detection. Crops are for visualization only.
+Attribution map examples for [PointPillars](https://openaccess.thecvf.com/content_CVPR_2019/html/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.html) detections on [KITTI](http://www.cvlibs.net/datasets/kitti/). Warmer colors (turbo colormap) denote higher contribution of a point to this detection. Crops are for visualization only.
 
 <a href="images/example_results.png">
 <img width="100%" src="images/example_results.png" />
