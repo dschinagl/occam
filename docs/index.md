@@ -82,7 +82,7 @@ Attribution map examples for PointPillars detections on KITTI. Warmer colors (tu
 
 ## Average Attribution Maps
 
-Average attribution maps (turbo-colored) for PointPillars trained and evaluated on KITTI [8]. We also show the average LiDAR reflectivity / intensity values (copper-colored). From left to right: cars, pedestrians and cyclists.
+Average attribution maps (turbo-colored) for PointPillars trained and evaluated on the KITTI dataset. We also show the average LiDAR reflectivity / intensity values (copper-colored). From left to right: cars, pedestrians and cyclists.
 
 <a href="images/average_attribution.png">
 <img width="100%" src="images/average_attribution.png" />
