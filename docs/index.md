@@ -18,7 +18,7 @@
 </p>
 
 <p>
-<center><a href="https://arxiv.org/pdf/2204.06577.pdf">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<center><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Schinagl_OccAMs_Laser_Occlusion-Based_Attribution_Maps_for_3D_Object_Detectors_on_CVPR_2022_paper.pdf">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/dschinagl/occam">[Code]</a></center>
 </p>
 
@@ -96,10 +96,12 @@ Average attribution maps (turbo-colored) for PointPillars trained and evaluated 
 If you can make use of this work, please cite:
 
 ```
-@inproceedings{Schinagl2022OccAM,
-  title={OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data},
-  author={Schinagl, David and Krispel, Georg and Possegger, Horst and Roth, Peter M. and Bischof, Horst},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2022}
+@InProceedings{Schinagl_2022_CVPR,
+    author    = {Schinagl, David and Krispel, Georg and Possegger, Horst and Roth, Peter M. and Bischof, Horst},
+    title     = {OccAM's Laser: Occlusion-Based Attribution Maps for 3D Object Detectors on LiDAR Data},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {1141-1150}
 }
 ```
