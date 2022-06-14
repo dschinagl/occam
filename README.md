@@ -9,7 +9,7 @@ This is the demo code for the paper:
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022<br>
-**[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2204.06577.pdf)**<br>
+**[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Schinagl_OccAMs_Laser_Occlusion-Based_Attribution_Maps_for_3D_Object_Detectors_on_CVPR_2022_paper.pdf)**<br>
 <a href="https://dschinagl.github.io/occam/">
 <img width="80%" src="docs/images/teaser.jpg"/>
 </a>
@@ -103,10 +103,12 @@ We thank the authors of [`OpenPCDet`](https://github.com/open-mmlab/OpenPCDet) f
 If you find this code useful for your research, please cite
 
 ```
-@inproceedings{Schinagl2022OccAM,
-  title={OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data},
-  author={Schinagl, David and Krispel, Georg and Possegger, Horst and Roth, Peter M. and Bischof, Horst},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2022}
+@InProceedings{Schinagl_2022_CVPR,
+    author    = {Schinagl, David and Krispel, Georg and Possegger, Horst and Roth, Peter M. and Bischof, Horst},
+    title     = {OccAM's Laser: Occlusion-Based Attribution Maps for 3D Object Detectors on LiDAR Data},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {1141-1150}
 }
 ```
