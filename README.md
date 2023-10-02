@@ -9,10 +9,9 @@ This is the demo code for the paper:
 and [Horst Bischof](https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=de)
 <br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022<br>
-**[[Project Page]](https://dschinagl.github.io/occam/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Schinagl_OccAMs_Laser_Occlusion-Based_Attribution_Maps_for_3D_Object_Detectors_on_CVPR_2022_paper.pdf)**<br>
-<a href="https://dschinagl.github.io/occam/">
+**[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Schinagl_OccAMs_Laser_Occlusion-Based_Attribution_Maps_for_3D_Object_Detectors_on_CVPR_2022_paper.pdf) [[Supp.]](https://openaccess.thecvf.com/content/CVPR2022/supplemental/Schinagl_OccAMs_Laser_Occlusion-Based_CVPR_2022_supplemental.pdf) [[arXiv]](https://arxiv.org/abs/2204.06577)**<br>
+
 <img width="80%" src="docs/images/teaser.jpg"/>
-</a>
 
 <br>
 
